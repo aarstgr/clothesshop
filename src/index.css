@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700&display=swap');
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.focusthat:hover{
+  background-color: rgb(224, 223, 223);
+ 
+}
+
+:root {
+  --bg-color: #fbfaff;
+  --text-color: #000000;
+}
+
+.dark-mode {
+  --bg-color: #2d3748;
+  --text-color: #ffffff;
+}
